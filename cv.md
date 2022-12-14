@@ -1,5 +1,5 @@
 # Curriculum Vitae
-# <img src="https://media.licdn.com/dms/image/C4D03AQEI3BCjoOaygA/profile-displayphoto-shrink_800_800/0/1660766015564?e=2147483647&v=beta&t=YyG8u-fS12W0cVT9t557TKAleu-0CiqXb3_j8QpPD84" alt="Photo" width="100" height="100">
+# <img src="https://media.licdn.com/dms/image/C4D03AQEI3BCjoOaygA/profile-displayphoto-shrink_800_800/0/1660766015564?e=2147483647&v=beta&t=YyG8u-fS12W0cVT9t557TKAleu-0CiqXb3_j8QpPD84" alt="Photo" width="150" height="150">
 ## Ilja Tarasovs
 + Adress: Atbrīvošanas aleja 119, Rēzekne, LV-4601
 + Telephone: +371 26021752
