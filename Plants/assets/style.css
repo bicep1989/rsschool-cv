@@ -74,9 +74,9 @@ h1 {
 .welcome{
   display: flex;
   justify-content: space-between;
-  gap: 225px;
-  padding: 58px 114px;
+  padding: 62px 109px;
   border: solid 0.5px;
+  gap: 221px;
 }
 
 .welcome img {
@@ -84,11 +84,7 @@ h1 {
   height: 407.36px;
 }
 
-.introduction {
-  padding-top: 37px;
-}
-
-#introduction-title {
+#intro_caption {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -98,26 +94,25 @@ h1 {
   margin-bottom: 44px;
 }
 
-.introduction span {
+.intro span {
     color: #499A18;
 }
 
-.introduction p {
+.intro p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     color: #636060;
-    margin-bottom: 48px;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+  background-color: #E06733;
 }
 
 .button {
-  width: 158px;
-  height: 44px;
-  border: 2px solid #E06733;
-  border-radius: 10px;
-  background-color: transparent;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -125,11 +120,14 @@ h1 {
   line-height: 20px;
   text-align: center;
   color: #000000;
-}
+  width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  background-color: transparent;
+  }
 
-.button:hover {
-  background-color: #E06733;
-}
+
 
 
 
