@@ -17,14 +17,17 @@ body {
   background: #EDF2EC;
   width: 1440px;
   height: 134px;
-  left: 0px;
-  top: 0px;
 }
 
 .head_logo {
   display: inline-flex;
   align-items: baseline;
-  margin: 52px 35px 62px 111px;
+  position: absolute;
+  width: 79.17px;
+  height: 21.04px;
+  left: 111px;
+  top: 40px;
+
 }
 
 .head_logo img {
@@ -43,7 +46,8 @@ top: 42px;
 .link_list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 49px;
   padding-bottom: 4px;
   margin-right: 109px;
   list-style-type: none;
@@ -63,7 +67,7 @@ top: 42px;
     color: #E06733;
 }
 
-.head-link:hover, .header-link:focus, .header_-ink:active {
+.head_link:hover, .head_link:focus, .head_link:active {
     opacity: .75;
     color: #26660c;
 }
