@@ -2,9 +2,10 @@ body {
   background: #EDF2EC;
 }
 
+/* Header */
 
-.panel {
-  width: 1220px;
+.header_container {
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -54,9 +55,10 @@ top: 42px;
 }
 
 .head_link {
-  font-style: normal;
+  font-style: bold;
   font-weight: 400;
   font-size: 16px;
+  height: 100px;
   line-height: 50px;
   color: #010201;
   text-decoration: none;
@@ -67,7 +69,8 @@ top: 42px;
     color: #E06733;
 }
 
-.head_link:hover, .head_link:focus, .head_link:active {
+.head_link:hover, head_link:focus, head_link:active {
     opacity: .75;
     color: #26660c;
 }
+
