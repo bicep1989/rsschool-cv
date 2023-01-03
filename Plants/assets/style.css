@@ -1,48 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
+body {
+  background: #EDF2EC;
+}
 
-<SMandatoryPacksData>
-	<Paths>
-  		<Item>platform:\dlcPacks\mpBeach\</Item>
-		<Item>platform:\dlcPacks\mpBusiness\</Item>
-		<Item>platform:\dlcPacks\mpChristmas\</Item>
-		<Item>platform:\dlcPacks\mpValentines\</Item>
-		<Item>platform:\dlcPacks\mpBusiness2\</Item>
-		<Item>platform:\dlcPacks\mpHipster\</Item>
-		<Item>platform:\dlcPacks\mpIndependence\</Item>
-		<Item>platform:\dlcPacks\mpPilot\</Item>
-		<Item>platform:\dlcPacks\spUpgrade\</Item>
-		<Item>platform:\dlcPacks\mpLTS\</Item>
-		<Item>dlcpacks:\mpheist\</Item>		
-		<Item>dlcpacks:\mppatchesng\</Item>
-		<Item>dlcpacks:\patchday1ng\</Item>
-		<Item>dlcpacks:\patchday2ng\</Item>
-		<Item>dlcpacks:\mpchristmas2\</Item>
-		<Item>dlcpacks:\patchday2bng\</Item>
-		<Item>dlcpacks:\patchday3ng\</Item>
-		<Item>dlcpacks:\bmwe65\</Item>
-		<Item>dlcpacks:\750li\</Item>
-		<item>dlcpacks:\m3e46\</item>
-		<Item>dlcpacks:\bmwe39\</Item>
-		<Item>dlcpacks:\911turbos\</Item>
-		<Item>dlcpacks:\a8audi\</Item>
-		<Item>dlcpacks:\bmwe32\</Item>
-		<Item>dlcpacks:\bmwe38\</Item>
-		<item>dlcpacks:\caprice89\</item>
-		<item>dlcpacks:\caprice89w\</item>
-		<Item>dlcpacks:\chevelle1970\</Item>
-		<Item>dlcpacks:\e34\</Item>
-		<Item>dlcpacks:\e53\</Item>
-		<Item>dlcpacks:\irocz\</Item>
-		<Item>dlcpacks:\gm5303\</Item>
-		<Item>dlcpacks:\mlbrabus\</Item>
-		<Item>dlcpacks:\r8v10\</Item>
-		<Item>dlcpacks:\shelbygt500\</Item>
-		<Item>dlcpacks:\tahoe\</Item>
-		<Item>dlcpacks:\e23\</Item>
-		<Item>dlcpacks:\gtorino76\</Item>
-		<Item>dlcpacks:\firebird87\</Item>
-		<Item>dlcpacks:\mustang68\</Item>
-		<item>dlcpacks:\alpina_e30\</item>
-		<Item>dlcpacks:\amghammer\</Item>
-	</Paths>	
-</SMandatoryPacksData>
+
+.panel {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.header_element {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.1px;
+  background: #EDF2EC;
+  width: 1440px;
+  height: 134px;
+  left: 0px;
+  top: 0px;
+}
+
+.head_logo {
+  display: inline-flex;
+  align-items: baseline;
+  margin: 52px 35px 62px 111px;
+}
+
+.head_logo img {
+  height: 20px;
+  width: 19px;
+}
+
+.basic_nav {
+position: absolute;
+width: 1220px;
+height: 50px;
+left: 111px;
+top: 42px;
+}
+
+.link_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 4px;
+  margin-right: 109px;
+  list-style-type: none;
+}
+
+.head_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+  text-decoration: none;
+}
+
+.home {
+    font-weight: 700;
+    color: #E06733;
+}
+
+.head-link:hover, .header-link:focus, .header_-ink:active {
+    opacity: .75;
+    color: #26660c;
+}
