@@ -5,7 +5,7 @@ body {
 /* Header */
 
 .header_container {
-  width: 1220px;
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -169,21 +169,21 @@ h1 {
 
 .service {
 padding: 40px 109px 121px;
-width: 1300px;
 border: solid 0.5px;
 }
 
 .services_content {
   display: flex;
+  justify-content: center;
   gap: 142px;
-  margin-right: 295px;;
-  margin-bottom: 83px;
+  margin-bottom: 25px;
 }
 
 .button_row {
   display: flex;
-  gap: 38px;
-  margin-top: 32px;
+  gap: 40px;
+  padding-right: 16%;
+  padding-top: 5%;
 }
 
 h2 {
@@ -215,15 +215,15 @@ h2 {
 
 .services_container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 111px;
   }
 
 .service_item {
   border: 1px solid #E3E1D5;
   border-radius: 20px 20px;
-  margin-right: 60px;
-}
+  }
 
 h3 {
   width: 120px;
@@ -246,7 +246,7 @@ h3 {
   text-align: center;
   color: #717171;
   margin-top: 13px;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
 }
 
 .service_item:hover {
