@@ -109,7 +109,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: #E06733;
+  background-color: #d8eedf;
 }
 
 .button {
@@ -127,7 +127,136 @@ h1 {
   background-color: transparent;
   }
 
+/* About */
 
+.about {
+  display: flex;
+  gap: 20px;
+  padding: 93px 109px 94px;
+  background-color: #FFFFFF;
+  border: solid 0.5px;
+}
 
+#inf_caption {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin: 68px 142px 40px 0px;
+}
 
+.about span {
+  color: #E06733;
+}
+
+.about img {
+  width: 464px;
+  height: 479px;
+}
+
+.about p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+/* Service */
+
+.service {
+padding: 40px 109px 121px;
+width: 1300px;
+border: solid 0.5px;
+}
+
+.services_content {
+  display: flex;
+  gap: 142px;
+  margin-right: 295px;;
+  margin-bottom: 83px;
+}
+
+.button_row {
+  display: flex;
+  gap: 38px;
+  margin-top: 32px;
+}
+
+h2 {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+
+.service_button {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 161px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background-color: transparent;
+  line-height: 26px;
+  color: #E06733;
+}
+
+.service_button:hover {
+    background-color: #d8eedf;
+}
+
+.services_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  }
+
+.service_item {
+  border: 1px solid #E3E1D5;
+  border-radius: 20px 20px;
+  margin-right: 60px;
+}
+
+h3 {
+  width: 120px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #E06733;
+  margin: auto;
+}
+
+.service_item p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #717171;
+  margin-top: 13px;
+  margin-bottom: 36px;
+}
+
+.service_item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.service_item img {
+  width: 329px;
+  height: 350px;
+  margin-bottom: 10px;
+}
 
