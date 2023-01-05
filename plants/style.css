@@ -2,12 +2,12 @@ body {
 	background: #EDF2EC;
   }
   
-  /* Header */
-  
-  .header_container {
+.main_container {
 	width: 1440px;
 	margin: 0 auto;
   }
+  
+  /* Header */
   
   .header_element {
 	display: flex;
@@ -354,7 +354,114 @@ body {
 }
 
 .support_pic img {
-  width: 154px;
-  height: 176px;
-  margin-bottom: 14px;
+  width: 152px;
+  height: 174.99px;
+  margin-bottom: 15px;
+}
+
+.emb_pic {
+  width: 16px;
+  height: 16px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  margin-top: 2px;
+
+}
+
+.emb_pic img {
+  margin-bottom: 7px;
+}
+
+/* Contacts */
+
+.contacts {
+  display: flex;
+  padding: 45px 109px 0px;
+  border: solid 0.5px;
+}
+
+.contacts_pic {
+  width: 400px;
+  height: 496.99px;
+  margin-top: 7px;
+  margin-right: 113px;
+}
+
+.contacts h2 {
+  margin-right: 68px;
+  margin-top: 15px;
+}
+
+.contacts button {
+  height: 50px;
+  width: 450px;
+  gap: 150px;
+  background: #D6E7D2;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #717171;
+  padding: 12px 33px 12px 18px;
+  margin-top: 103px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.emb_pic2 img {
+ padding-left: 270%;
+ padding-top: 6%;
+}
+
+/* Footer */
+
+footer {
+  width: 1440px;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 27%;
+  background-color: #FFFFFF;
+  border: solid 0.5px;
+}
+
+footer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer a:hover {
+    color: #499A18;
+}
+
+footer img:hover {
+  background-color: #8ccc64;
+  border-radius: 50%;
+}
+
+.git_info {
+  padding-top: 1.5%;
+}
+
+.git_info span {
+  padding: 10px;
+}
+
+.rs-school {
+ padding-top: 1.6%;
+}
+
+.social_media {
+  padding-top: 4.4%;
 }
