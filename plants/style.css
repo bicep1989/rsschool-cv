@@ -1,0 +1,261 @@
+body {
+	background: #EDF2EC;
+  }
+  
+  /* Header */
+  
+  .header_container {
+	width: 1440px;
+	margin: 0 auto;
+  }
+  
+  .header_element {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border: solid 0.5px;
+	background: #EDF2EC;
+  }
+  
+  .head_logo {
+	display: inline-flex;
+	align-items: baseline;
+	margin: 52px 35px 62px 111px;
+	width: 79.17px;
+	height: 21.04px;
+  }
+  
+  .head_logo img {
+	height: 20px;
+	width: 19px;
+  }
+  
+  h1 {
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	}
+  
+  .link_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 50px;
+	padding-bottom: 4px;
+	margin-right: 109px;
+	list-style-type: none;
+  }
+  
+  .head_link {
+	font-family: 'Inika';
+	font-style: bold;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+	color: #010201;
+	text-decoration: none;
+  }
+  
+  .home {
+	  font-weight: 700;
+	  color: #E06733;
+  }
+  
+  .head_link:hover, head_link:focus, head_link:active {
+	  opacity: .75;
+	  color: #26660c;
+  }
+  
+  /* Welcome */
+  
+  .welcome{
+	display: flex;
+	justify-content: space-between;
+	padding: 62px 109px;
+	border: solid 0.5px;
+	gap: 221px;
+  }
+  
+  .welcome img {
+	width: 448.8px;
+	height: 407.36px;
+  }
+  
+  #intro_caption {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 50px;
+	color: #717171;
+	margin-bottom: 44px;
+  }
+  
+  .intro span {
+	  color: #499A18;
+  }
+  
+  .intro p {
+	  font-family: 'Inter';
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 20px;
+	  line-height: 35px;
+	  color: #636060;
+	  margin-bottom: 50px;
+  }
+  
+  .button:hover {
+	background-color: #d8eedf;
+  }
+  
+  .button {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+	width: 158px;
+	height: 44px;
+	border: 2px solid #E06733;
+	border-radius: 10px;
+	background-color: transparent;
+	}
+  
+  /* About */
+  
+  .about {
+	display: flex;
+	gap: 20px;
+	padding: 93px 109px 94px;
+	background-color: #FFFFFF;
+	border: solid 0.5px;
+  }
+  
+  #inf_caption {
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+	margin: 68px 142px 40px 0px;
+  }
+  
+  .about span {
+	color: #E06733;
+  }
+  
+  .about img {
+	width: 464px;
+	height: 479px;
+  }
+  
+  .about p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #636060;
+  }
+  
+  /* Service */
+  
+  .service {
+  padding: 40px 109px 121px;
+  border: solid 0.5px;
+  }
+  
+  .services_content {
+	display: flex;
+	justify-content: center;
+	gap: 142px;
+	margin-bottom: 25px;
+  }
+  
+  .button_row {
+	display: flex;
+	gap: 40px;
+	padding-right: 16%;
+	padding-top: 5%;
+  }
+  
+  h2 {
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+  }
+  
+  .service_button {
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	width: 161px;
+	height: 50px;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	background-color: transparent;
+	line-height: 26px;
+	color: #E06733;
+  }
+  
+  .service_button:hover {
+	  background-color: #d8eedf;
+  }
+  
+  .services_container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 111px;
+	}
+  
+  .service_item {
+	border: 1px solid #E3E1D5;
+	border-radius: 20px 20px;
+	}
+  
+  h3 {
+	width: 120px;
+	text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #E06733;
+	margin: auto;
+  }
+  
+  .service_item p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #717171;
+	margin-top: 13px;
+	margin-bottom: 35px;
+  }
+  
+  .service_item:hover {
+	  transform: scale(1.1);
+	  transition: 0.3s;
+  }
+  
+  .service_item img {
+	width: 329px;
+	height: 350px;
+	margin-bottom: 10px;
+  }
