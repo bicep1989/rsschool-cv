@@ -125,6 +125,7 @@ body {
 	border: 2px solid #E06733;
 	border-radius: 10px;
 	background-color: transparent;
+    cursor: pointer;
 	}
   
   /* About */
@@ -207,6 +208,7 @@ body {
 	background-color: transparent;
 	line-height: 26px;
 	color: #E06733;
+    cursor: pointer;
   }
   
   .service_button:hover {
@@ -223,6 +225,7 @@ body {
   .service_item {
 	border: 1px solid #E3E1D5;
 	border-radius: 20px 20px;
+    cursor: pointer;
 	}
   
   h3 {
@@ -259,3 +262,99 @@ body {
 	height: 350px;
 	margin-bottom: 10px;
   }
+
+/* Prices */
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 25px 109px 100px;
+  border: solid 0.5px;
+}
+
+.prices_container {
+  margin-right: 438px;
+}
+
+.prices h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.price_variation {
+  height: 280px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  margin-top: 60px;
+}
+
+.button_variation {
+  display: flex;
+  flex-direction: row;
+}
+
+.prices_button {
+  width: 250px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  background: #EDF2EC;
+  border-radius: 20px;
+  border-color: transparent;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding: 13px 38px;
+  margin-top: 32px;
+}
+
+.support {
+  display: grid;
+  justify-items: right;
+  text-align: right;
+}
+
+.support span {
+    color: #499A18;
+}
+
+.support h2 {
+  margin-bottom: 44px;
+}
+
+.support button {
+  width: 162px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #E06733;
+  margin-bottom: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.support button:hover {
+  color: #000000;
+}
+
+.support_pic img {
+  width: 154px;
+  height: 176px;
+  margin-bottom: 14px;
+}
