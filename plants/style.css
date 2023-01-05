@@ -2,12 +2,12 @@ body {
 	background: #EDF2EC;
   }
   
-  /* Header */
-  
-  .header_container {
+.main_container {
 	width: 1440px;
 	margin: 0 auto;
   }
+  
+  /* Header */
   
   .header_element {
 	display: flex;
@@ -125,6 +125,7 @@ body {
 	border: 2px solid #E06733;
 	border-radius: 10px;
 	background-color: transparent;
+    cursor: pointer;
 	}
   
   /* About */
@@ -207,6 +208,7 @@ body {
 	background-color: transparent;
 	line-height: 26px;
 	color: #E06733;
+    cursor: pointer;
   }
   
   .service_button:hover {
@@ -223,6 +225,7 @@ body {
   .service_item {
 	border: 1px solid #E3E1D5;
 	border-radius: 20px 20px;
+    cursor: pointer;
 	}
   
   h3 {
@@ -259,3 +262,206 @@ body {
 	height: 350px;
 	margin-bottom: 10px;
   }
+
+/* Prices */
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 25px 109px 100px;
+  border: solid 0.5px;
+}
+
+.prices_container {
+  margin-right: 438px;
+}
+
+.prices h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.price_variation {
+  height: 280px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  margin-top: 60px;
+}
+
+.button_variation {
+  display: flex;
+  flex-direction: row;
+}
+
+.prices_button {
+  width: 250px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  background: #EDF2EC;
+  border-radius: 20px;
+  border-color: transparent;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding: 13px 38px;
+  margin-top: 32px;
+}
+
+.support {
+  display: grid;
+  justify-items: right;
+  text-align: right;
+}
+
+.support span {
+    color: #499A18;
+}
+
+.support h2 {
+  margin-bottom: 44px;
+}
+
+.support button {
+  width: 162px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #E06733;
+  margin-bottom: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.support button:hover {
+  color: #000000;
+}
+
+.support_pic img {
+  width: 152px;
+  height: 174.99px;
+  margin-bottom: 15px;
+}
+
+.emb_pic {
+  width: 16px;
+  height: 16px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  margin-top: 2px;
+
+}
+
+.emb_pic img {
+  margin-bottom: 7px;
+}
+
+/* Contacts */
+
+.contacts {
+  display: flex;
+  padding: 45px 109px 0px;
+  border: solid 0.5px;
+}
+
+.contacts_pic {
+  width: 400px;
+  height: 496.99px;
+  margin-top: 7px;
+  margin-right: 113px;
+}
+
+.contacts h2 {
+  margin-right: 68px;
+  margin-top: 15px;
+}
+
+.contacts button {
+  height: 50px;
+  width: 450px;
+  gap: 150px;
+  background: #D6E7D2;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #717171;
+  padding: 12px 33px 12px 18px;
+  margin-top: 103px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.emb_pic2 img {
+ padding-left: 270%;
+ padding-top: 6%;
+}
+
+/* Footer */
+
+footer {
+  width: 1440px;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 27%;
+  background-color: #FFFFFF;
+  border: solid 0.5px;
+}
+
+footer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer a:hover {
+    color: #499A18;
+}
+
+footer img:hover {
+  background-color: #8ccc64;
+  border-radius: 50%;
+}
+
+.git_info {
+  padding-top: 1.5%;
+}
+
+.git_info span {
+  padding: 10px;
+}
+
+.rs-school {
+ padding-top: 1.6%;
+}
+
+.social_media {
+  padding-top: 4.4%;
+}
