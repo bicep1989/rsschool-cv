@@ -417,9 +417,12 @@ body {
 /* Footer */
 
 footer {
+  width: 1440px;
+  height: 130px;
   display: flex;
   flex-wrap: wrap;
-  gap: 25%;
+  justify-content: center;
+  gap: 27%;
   background-color: #FFFFFF;
   border: solid 0.5px;
 }
@@ -447,19 +450,18 @@ footer img:hover {
   border-radius: 50%;
 }
 
-.git_info span {
+.git_info {
+  padding-top: 1.5%;
 }
 
-#year { 
-  }
+.git_info span {
+  padding: 10px;
+}
 
 .rs-school {
+ padding-top: 1.6%;
 }
 
 .social_media {
-  padding-top: 2.5%;
-}
-
-.social_media a {
-  
+  padding-top: 4.4%;
 }
