@@ -409,11 +409,6 @@ body {
   border: none;
 }
 
-.emb_pic2 img {
- padding-left: 270%;
- padding-top: 6%;
-}
-
 /* Footer */
 
 footer {
@@ -464,4 +459,14 @@ footer img:hover {
 
 .social_media {
   padding-top: 4.4%;
+}
+
+.emb_pic2 {
+	width: 16px;
+	height: 16px;
+	background: #D9D9D9;
+	border-radius: 50%;
+	margin-top: 2px;
+	padding-left: 270%;
+	padding-top: 6%;
 }
