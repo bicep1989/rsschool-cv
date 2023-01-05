@@ -368,6 +368,48 @@ body {
 
 }
 
-.emb_pic img{
+.emb_pic img {
   margin-bottom: 7px;
+}
+
+/* Contacts */
+
+.contacts {
+  display: flex;
+  padding: 45px 109px 0px;
+  border: solid 0.5px;
+}
+
+.contacts_pic {
+  width: 400px;
+  height: 496.99px;
+  margin-top: 7px;
+  margin-right: 113px;
+}
+
+.contacts h2 {
+  margin-right: 68px;
+  margin-top: 15px;
+}
+
+.contacts button {
+  height: 50px;
+  width: 450px;
+  gap: 150px;
+  background: #D6E7D2;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #717171;
+  padding: 12px 33px 12px 18px;
+  margin-top: 103px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.emb_pic2 img {
+ padding-left: 270%;
+ padding-top: 6%;
 }
