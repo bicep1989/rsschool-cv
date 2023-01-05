@@ -2,12 +2,12 @@ body {
 	background: #EDF2EC;
   }
   
-  /* Header */
-  
-  .header_container {
+.main_container {
 	width: 1440px;
 	margin: 0 auto;
   }
+  
+  /* Header */
   
   .header_element {
 	display: flex;
@@ -412,4 +412,54 @@ body {
 .emb_pic2 img {
  padding-left: 270%;
  padding-top: 6%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25%;
+  background-color: #FFFFFF;
+  border: solid 0.5px;
+}
+
+footer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer a:hover {
+    color: #499A18;
+}
+
+footer img:hover {
+  background-color: #8ccc64;
+  border-radius: 50%;
+}
+
+.git_info span {
+}
+
+#year { 
+  }
+
+.rs-school {
+}
+
+.social_media {
+  padding-top: 2.5%;
+}
+
+.social_media a {
+  
 }
