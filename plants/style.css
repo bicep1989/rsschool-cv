@@ -3,11 +3,11 @@ html {
   }
 
 body {
-	background: #EDF2EC;
+  background: #EDF2EC;
   }
   
 .main_container {
-	width: 1440px;
+	width: 1220px;
 	margin: 0 auto;
   }
   
@@ -24,7 +24,7 @@ body {
   .head_logo {
 	display: inline-flex;
 	align-items: baseline;
-	margin: 52px 35px 62px 111px;
+	margin: 52px 35px 90px 0px;
 	width: 79.17px;
 	height: 21.04px;
   }
@@ -48,7 +48,7 @@ body {
 	justify-content: flex-end;
 	gap: 50px;
 	padding-bottom: 4px;
-	margin-right: 109px;
+	margin-right: 0px;
 	list-style-type: none;
   }
   
@@ -77,7 +77,7 @@ body {
   .welcome{
 	display: flex;
 	justify-content: space-between;
-	padding: 62px 109px;
+	padding-bottom: 62px;
 	gap: 221px;
   }
   
@@ -134,8 +134,8 @@ body {
   
   .about {
 	display: flex;
-	gap: 20px;
-	padding: 93px 109px 94px;
+	gap: 170px;
+	padding: 93px 0px 94px;
 	background-color: #FFFFFF;
   }
   
@@ -170,7 +170,7 @@ body {
   /* Service */
   
   .service {
-  padding: 40px 109px 121px;
+  padding: 40px 0px 121px;
   }
   
   .services_content {
@@ -183,7 +183,7 @@ body {
   .button_row {
 	display: flex;
 	gap: 40px;
-	padding-right: 16%;
+	padding-right: 17%;
 	padding-top: 5%;
   }
   
@@ -269,7 +269,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #FFFFFF;
-  padding: 25px 109px 100px;
+  padding: 25px 0px 100px;
 }
 
 .prices_container {
@@ -376,7 +376,7 @@ body {
 
 .contacts {
   display: flex;
-  padding: 45px 109px 0px;
+  padding: 45px 0px 0px;
 }
 
 .contacts_pic {
@@ -411,12 +411,12 @@ body {
 /* Footer */
 
 footer {
-  width: 1440px;
+  width: 1220px;
   height: 130px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 27%;
+  gap: 15%;
   background-color: #FFFFFF;
 }
 
@@ -462,4 +462,3 @@ footer img:hover {
 .contacts .emb_pic {
   background:  #AEA1A1;
 }
-
