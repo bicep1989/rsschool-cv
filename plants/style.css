@@ -1,27 +1,34 @@
+html {
+  scroll-behavior: smooth;
+  }
+
 body {
-	background: #EDF2EC;
+  background: #EDF2EC;
   }
   
-.main_container {
-	width: 1440px;
+.shell {
+	width: 1220px;
 	margin: 0 auto;
   }
   
   /* Header */
   
-  .header_element {
-	display: flex;
-	flex-wrap: wrap;
+  header {
+    width: 100%;
+    margin-bottom: 105px;
+  }
+  
+  .header_box {
+  display: flex;
+  flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	border: solid 0.5px;
-	background: #EDF2EC;
-  }
+	}
   
   .head_logo {
 	display: inline-flex;
 	align-items: baseline;
-	margin: 52px 35px 62px 111px;
+	margin: 52px 35px 90px 0px;
 	width: 79.17px;
 	height: 21.04px;
   }
@@ -45,7 +52,7 @@ body {
 	justify-content: flex-end;
 	gap: 50px;
 	padding-bottom: 4px;
-	margin-right: 109px;
+	margin-right: 0px;
 	list-style-type: none;
   }
   
@@ -71,11 +78,10 @@ body {
   
   /* Welcome */
   
-  .welcome{
+  .welcome_box {
 	display: flex;
-	justify-content: space-between;
-	padding: 62px 109px;
-	border: solid 0.5px;
+  justify-content: space-between;
+	padding-bottom: 62px;
 	gap: 221px;
   }
   
@@ -125,17 +131,21 @@ body {
 	border: 2px solid #E06733;
 	border-radius: 10px;
 	background-color: transparent;
-    cursor: pointer;
+  cursor: pointer;
 	}
   
   /* About */
   
   .about {
+    background-color: #FFFFFF;
+    height: 665px;
+  }
+  
+  .about_box {
 	display: flex;
-	gap: 20px;
-	padding: 93px 109px 94px;
+  gap: 170px;
+	padding: 93px 0px 94px;
 	background-color: #FFFFFF;
-	border: solid 0.5px;
   }
   
   #inf_caption {
@@ -169,8 +179,7 @@ body {
   /* Service */
   
   .service {
-  padding: 40px 109px 121px;
-  border: solid 0.5px;
+  height: 1300px;
   }
   
   .services_content {
@@ -183,7 +192,7 @@ body {
   .button_row {
 	display: flex;
 	gap: 40px;
-	padding-right: 16%;
+	padding-right: 17%;
 	padding-top: 5%;
   }
   
@@ -266,15 +275,15 @@ body {
 /* Prices */
 
 .prices {
-  display: flex;
-  justify-content: space-between;
+  height: 560px;
+  width: 100%;
   background-color: #FFFFFF;
-  padding: 25px 109px 100px;
-  border: solid 0.5px;
 }
 
 .prices_container {
-  margin-right: 438px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
 }
 
 .prices h2 {
@@ -298,7 +307,7 @@ body {
 
 .button_variation {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .prices_button {
@@ -364,20 +373,23 @@ body {
   height: 16px;
   background: #D9D9D9;
   border-radius: 50%;
-  margin-top: 2px;
-
+  margin-top: 1px;
+  margin-left: 20px;
 }
 
-.emb_pic img {
-  margin-bottom: 7px;
+.emb_pic img{
+  margin-bottom: 6px;
+  margin-left: 0px;
 }
 
 /* Contacts */
 
 .contacts {
-  display: flex;
-  padding: 45px 109px 0px;
-  border: solid 0.5px;
+  height: 550px;
+ }
+ 
+.contacts_container {
+   display: flex;
 }
 
 .contacts_pic {
@@ -409,22 +421,15 @@ body {
   border: none;
 }
 
-.emb_pic2 img {
- padding-left: 270%;
- padding-top: 6%;
-}
-
 /* Footer */
 
 footer {
-  width: 1440px;
   height: 130px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 27%;
+  gap: 15%;
   background-color: #FFFFFF;
-  border: solid 0.5px;
 }
 
 footer p {
@@ -463,5 +468,13 @@ footer img:hover {
 }
 
 .social_media {
-  padding-top: 4.4%;
+  padding-top: 2.9%;
+}
+
+.contacts .emb_pic {
+  background:  #AEA1A1;
+}
+
+.contacts .emb_pic img {
+  margin-bottom: 8px;
 }
