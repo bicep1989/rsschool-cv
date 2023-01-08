@@ -6,20 +6,24 @@ body {
   background: #EDF2EC;
   }
   
-.main_container {
+.shell {
 	width: 1220px;
 	margin: 0 auto;
   }
   
   /* Header */
   
-  .header_element {
-	display: flex;
-	flex-wrap: wrap;
+  header {
+    width: 100%;
+    margin-bottom: 105px;
+  }
+  
+  .header_box {
+  display: flex;
+  flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background: #EDF2EC;
-  }
+	}
   
   .head_logo {
 	display: inline-flex;
@@ -74,9 +78,9 @@ body {
   
   /* Welcome */
   
-  .welcome{
+  .welcome_box {
 	display: flex;
-	justify-content: space-between;
+  justify-content: space-between;
 	padding-bottom: 62px;
 	gap: 221px;
   }
@@ -127,14 +131,19 @@ body {
 	border: 2px solid #E06733;
 	border-radius: 10px;
 	background-color: transparent;
-    cursor: pointer;
+  cursor: pointer;
 	}
   
   /* About */
   
   .about {
+    background-color: #FFFFFF;
+    height: 665px;
+  }
+  
+  .about_box {
 	display: flex;
-	gap: 170px;
+  gap: 170px;
 	padding: 93px 0px 94px;
 	background-color: #FFFFFF;
   }
@@ -170,7 +179,7 @@ body {
   /* Service */
   
   .service {
-  padding: 40px 0px 121px;
+  height: 1300px;
   }
   
   .services_content {
@@ -266,14 +275,15 @@ body {
 /* Prices */
 
 .prices {
-  display: flex;
-  justify-content: space-between;
+  height: 560px;
+  width: 100%;
   background-color: #FFFFFF;
-  padding: 25px 0px 100px;
 }
 
 .prices_container {
-  margin-right: 438px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
 }
 
 .prices h2 {
@@ -369,14 +379,17 @@ body {
 
 .emb_pic img{
   margin-bottom: 6px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 /* Contacts */
 
 .contacts {
-  display: flex;
-  padding: 45px 0px 0px;
+  height: 550px;
+ }
+ 
+.contacts_container {
+   display: flex;
 }
 
 .contacts_pic {
@@ -411,7 +424,6 @@ body {
 /* Footer */
 
 footer {
-  width: 1220px;
   height: 130px;
   display: flex;
   flex-wrap: wrap;
@@ -456,9 +468,13 @@ footer img:hover {
 }
 
 .social_media {
-  padding-top: 4.2%;
+  padding-top: 2.9%;
 }
 
 .contacts .emb_pic {
   background:  #AEA1A1;
+}
+
+.contacts .emb_pic img {
+  margin-bottom: 8px;
 }
