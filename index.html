@@ -85,42 +85,54 @@
             <div class="services_content">
                     <h2>Service and our projects</h2>
                     <div class="button_row">
-                        <button class="service_button">Gardens</button>
-                        <button class="service_button">Lawn</button>
-                        <button class="service_button">Planting</button>
+                        <button id="gardenbutton" class="service_button">Gardens</button>
+                        <button id="lawnbutton" class="service_button">Lawn</button>
+                        <button id="plantingbutton" class="service_button">Planting</button>
                     </div>
             </div>
         <div class="services_container">
-                    <div class="service_item">
+            <a href="#" onclick="return false;">
+                    <div class="service_item garden">
                         <img src="./plants/first.png" alt="Garden care">
                         <h3>Garden care</h3>
                         <p class="serv_caption">Lorem Ipsum has been the industry</p>
                     </div>
-                    <div class="service_item">
+            </a>
+            <a href="#" onclick="return false;">
+                    <div class="service_item planting">
                         <img src="./plants/second.png" alt="Planting">
                         <h3>Planting</h3>
                         <p class="serv_caption">Lorem Ipsum has been the industry</p>
                     </div>
-                    <div class="service_item">
+            </a>
+            <a href="#" onclick="return false;">       
+                    <div class="service_item lawn">
                         <img src="./plants/third.png" alt="Lawn care">
                         <h3>Lawn care</h3>
                         <p class="serv_caption">Lorem Ipsum has been the industry</p>
                     </div>
-                    <div class="service_item">
+            </a>        
+            <a href="#" onclick="return false;">       
+                    <div class="service_item planting">
                         <img src="./plants/fourth.png" alt="Planting">
                         <h3>Planting</h3>
                         <p class="serv_caption">Lorem Ipsum has been the industry</p>
                     </div>
-                    <div class="service_item">
+            </a>        
+            <a href="#" onclick="return false;">       
+                    <div class="service_item garden">
                         <img src="./plants/fifth.png" alt="Garden care">
                         <h3>Garden care</h3>
                         <p class="serv_caption">Lorem Ipsum has been the industry</p>
                     </div>
-                    <div class="service_item">
+            </a>        
+            <a href="#" onclick="return false;">        
+                    <div class="service_item planting">
                         <img src="./plants/sixth.png" alt="Planting">
                         <h3>Planting</h3>
                         <p class="serv_caption">Lorem Ipsum has been the industry</p>
                     </div>
+            </a>   
                 </div>
             </div>
       </section>
@@ -186,21 +198,137 @@
             </div> <!--general div-->
                 <div class="support">
                     <div class="support_caption">Our best <span>gardeners</span> are <br> ready to help you</div>
-                    <a href="#contacts"><button class="button">Contact us</button></a>
+                    <button class="button">Contact us</button>
                     <div class="support_pic"><img src="./plants/small-leafs.png" alt="leaves"></div>
                 </div> <!--support-->
             </div> <!--shell prices_container-->
       </section>
 <!--Contacts-->
-    <section class="contacts" id="contacts">
-        <div class="shell contacts_container">
-                <div class="contacts_pic" id="contactWoman"><img src="./plants/contact_woman_1.png" alt="Contact Woman"></div>
-                <div id="contact_us">
-                  <h2>Contact us</h2>
+<section class="contacts">
+    <div>
+        <div class="contacts-wrapper">
+            <div class="woman" id="contactWoman"><img src="./plants/contact_woman_1.png" alt="Contact Woman"></div>
+            <div class="contacts_us" id="contact_us">
+                <h2>Contact us</h2>
+            </div>
+            <div>
+                <div class="massive" id="cityButton">
+                    <div class="contacts_city">
+                        <div class="contacts-city-text">
+                            <a class="contact_city_txt">City</a>
+                        </div>
+                        <div class="city_pics">
+                            <img class="city_pic" src="./plants/accordion_dropdown_grey.png"
+                                alt="accordion" width="16" height="16">
+                        </div>
+                    </div>
+                    <div class="contact-city-content">
+                        <div class="city">
+                            <div class="cities-name">
+                                <a class="city-name">Canandaigua, NY</a>
+                            </div>
+                            <div class="cities-name">
+                                <a class="city-name">New York City</a>
+                            </div>
+                            <div class="cities-name">
+                                <a class="city-name">Yonkers, NY</a>
+                            </div>
+                            <div class="cities-name">
+                                <a class="city-name">Sherrill, NY</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="price_variations" id="cityButton">City<div class="emb_pic2"><img src="./plants/arrow-white.svg" alt="Arrow"></div></div>
+                <div>
+                    <div class="C">
+                        <div class="city-block">
+                            <div class="infoForCity">
+                                <table>
+                                    <tr>
+                                        <th>City:</th>
+                                        <td>Canandaigua, NY</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone:</th>
+                                        <td>+1 585 393 0001</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Office adress:</th>
+                                        <td>151 Charlotte Street</td>
+                                    </tr>
+                                </table>
+                                <button onclick="window.open('tel:+15853930001')">Call Us</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="N">
+                        <div class="city-block">
+                            <div class="infoForCity">
+                                <table>
+                                    <tr>
+                                        <th>City:</th>
+                                        <td>New York City</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone:</th>
+                                        <td>+1 212 456 0002</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Office adress:</th>
+                                        <td>9 East 91st Street</td>
+                                    </tr>
+                                </table>
+                                <button onclick="window.open('tel:+12124560002')">Call Us</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Y">
+                        <div class="city-block">
+                            <div class="infoForCity">
+                                <table>
+                                    <tr>
+                                        <th>City:</th>
+                                        <td>Yonkers, NY</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone:</th>
+                                        <td>+1 914 678 0003</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Office adress:</th>
+                                        <td>511 Warburton Ave</td>
+                                    </tr>
+                                </table>
+                                <button onclick="window.open('tel:+19146780003')">Call Us</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="S">
+                        <div class="city-block">
+                            <div class="infoForCity">
+                                <table>
+                                    <tr>
+                                        <th>City:</th>
+                                        <td>Sherrill, NY</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone:</th>
+                                        <td>+1 315 908 0004</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Office adress:</th>
+                                        <td>14 WEST Noyes BLVD</td>
+                                    </tr>
+                                </table>
+                                <button onclick="window.open('tel:+13159080004')">Call Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section> 
+    </div>
+</section> 
     </main>
 <!--Footer-->
        <footer>

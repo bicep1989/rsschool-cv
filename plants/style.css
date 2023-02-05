@@ -20,8 +20,11 @@ body {
 @media (max-width: 380px) {
     .shell {
       width: 380px;
-	  margin: 0 auto;
+	    margin: 0 auto;
       height: 100%;
+    }
+    html {
+      width: 380px;
     }
   }
   
@@ -344,8 +347,8 @@ body {
 	line-height: 20px;
 	width: 100px;
 	height: 30px;
-    margin-left: 25px;
-    margin-bottom: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
   }
   }
   
@@ -512,8 +515,31 @@ body {
 	background-color: transparent;
 	line-height: 26px;
 	color: #E06733;
-    cursor: pointer;
+  cursor: pointer;
   }
+
+.service_button.activeBtn {
+    background-color: #E06733;
+    color: #FFFFFF;
+}
+
+.garden.blur {
+  transition: 2s;
+  filter: blur(10px);
+
+}
+
+.lawn.blur {
+  transition: 2s;
+  filter: blur(10px);
+
+}
+
+.planting.blur {
+  transition: 2s;
+  filter: blur(10px);
+
+}
   
   .service_button:hover {
 	  background-color: #d8eedf;
@@ -565,6 +591,10 @@ body {
 	width: 329px;
 	height: 350px;
 	margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none
   }
 
  /* Service Adaptivity */
@@ -962,6 +992,10 @@ color: #717171;
   height: 174.99px;
   margin-bottom: 15px;
 }
+
+.support button {
+  margin-left: 50%;
+}
 }
 
 @media (max-width: 380px) {
@@ -1009,6 +1043,10 @@ font-size: 15px;
   line-height: 25px;
 }
 
+.support button {
+  margin-left: 18%;
+}
+
 .support_pic img {
   display: none;
 }
@@ -1020,150 +1058,271 @@ font-size: 15px;
   margin-right: 50%;
 }
 }
-
 /* Contacts */
 
 .contacts {
-  height: 550px;
- }
- 
-.contacts_container {
-   display: flex;
+  background: #EDF2EC;
 }
 
-.contacts_pic {
+.contacts-wrapper {
+  padding: 0px 250px 0px 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.woman img {
   width: 400px;
-  height: 496.99px;
-  margin-top: 7px;
-  margin-right: 113px;
+  height: 497px;
+  margin-bottom: -3px;
+  margin-top: 90px;
 }
 
-.contacts h2 {
-  margin-right: 60px;
-  margin-top: 15px;
+.contacts_us {
+  padding: 0px 64px 0px 113px;
+  width: 195px;
+}
+
+.contacts_us h2 {
   font-weight: 700;
-  text-align: right;
-  margin-top: 15px;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin-top: 40px;
 }
 
-.contacts button {
-  height: 50px;
+.massive {
+  margin-top: 150px;
   width: 450px;
-  gap: 150px;
+  height: fit-content;
   background: #D6E7D2;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.06em;
-  color: #717171;
-  padding: 12px 33px 12px 18px;
-  margin-top: 103px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: none;
 }
 
-.contacts .price_variations {
-  display: inline-flex;
-  height: 24px;
-  width: 400px;
-  background: #D6E7D2;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px;
-  font-family: 'Inter';
-  font-style: normal;
+.contacts_city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.activeAccordion {
+  background: #C1E698;
+}
+
+.contacts-city-text {
+  margin: 5px 175px 5px 20px;
+  width: 204px;
+  height: 40px;
   font-weight: 400;
   font-size: 20px;
+  line-height: 40px;
   letter-spacing: 0.05em;
   color: #717171;
-  padding: 14px 33px 12px 18px;
-  margin-top: 102px;
- }
+}
 
-.emb_pic2 {
+.contacts-city-text p {
+  margin: 0;
+}
+
+.city_pics {
+  margin-right: 35px;
   width: 16px;
   height: 16px;
-  background: #AEA1A1;
-  border-radius: 50%;
-  margin-left: 100%;
 }
 
-.emb_pic2 img {
-  margin-bottom: 45%;
-  margin-left: 31%;
+.contact-city-content {
+  max-height: 0;
+  overflow: hidden;
 }
+
+.city {
+  margin: 15px 50px 30px 20px;
+}
+
+.cities-name {
+  padding-top: 12px;
+  border-bottom: 1px solid #D9D9D9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  color: #499A18;
+}
+
+.cities-name:hover {
+  color: #717171;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #717171;
+}
+
+.C, .N, .Y, .S {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.city-block {
+  margin-top: 47px;
+  background: #EDF2EC;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.infoForCity {
+  padding: 17px 76px 32px 33px;
+}
+
+.infoForCity th {
+  width: 128px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.infoForCity td {
+  width: 190px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #717171;
+}
+
+.infoForCity button {
+  width: 122px;
+  height: 26px;
+  margin: 24px 88px 0 127px;
+  font-family: 'Inika';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #717171;
+  background: #EDF2EC;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+}
+
+.infoForCity button:hover {
+  background: #E06733;
+  color: #ffffff;
+}
+
+div#contact_us {order: 0;}
+div#cityButton {order: 1;}
+div#contactWoman {order: 0;}
 
 /* CONTACTS ADAPTIVITY */
 
 @media (max-width: 768px) {
-  .contacts {
-    height: 739px;
-   }
-  .contacts_container {
-    flex-direction: column;
-    align-items: center;
- }
- .contacts .price_variations {
-  padding: 14px 33px 12px 18px;
-  margin-top: 100px;
- }
- .contacts h2 {
-  font-size: 40px;
-  width: 192px;
-  margin-right: 3.5px;
-  margin-top: 40px;
-  
+.contacts {
+  height: auto;
+  width: 768px;
 }
- .contacts_pic img {
-  order: 2;
+
+.contacts-wrapper {
+  padding: 40px 109px 0 109px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.woman img {
   width: 200px;
-  height: 250px;
-  margin-top: 212px;
-  margin-left: 165px;
+  height: 248px;
+  margin-bottom: -3.5px;
+  margin-top: 250px;
+ }
+
+.contacts_us {
+  padding: 7px 64px 0 113px;
+  width: 195px;
 }
+
+.contacts_us h2 {
+  font-size: 40px;
+  line-height: 0px;
+  width: 200px;
+  margin-left: -30px;
+}
+
+.massive {
+  margin-top: 100px;
+  width: 450px;
+  margin-left: 0px;
+}
+  
 div#contact_us {order: 0;}
-div#cityButton {order: 1;}
-div#contactWoman {order: 2;}
+div#cityButton {order: 2;}
+div#contactWoman {order: 1;}
 }
 
 @media (max-width: 380px) {
+body {
+  margin: auto;
+}
   .contacts {
-    height: 445px;
-    width: 380px;
- }
-  .contacts_container {
-    flex-direction: column;
-    align-items: center;
- }
- .contacts .price_variations {
-  padding: 14px 33px 12px 18px;
-  margin: 80px 44px 0px 0px;
-  width: 270px;
-  height: 25px;
-  font-size: 20px;
- }
- .contacts h2 {
-  font-size: 25px;
-  width: 120px;
-  margin-right: 20px;
-  margin-top: 40px;
-  
+  height: auto;
+  width: 380px;
 }
- .contacts_pic img {
-  order: 2;
+
+.contacts-wrapper {
+  padding: 40px 109px 0 109px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.woman img {
   width: 100px;
-  height: 124.5px;
-  margin-top: 76px;
-  margin-left: 190px;
+  height: 124.25px;
+  margin-top: 123px;
+ }
+
+.contacts_us {
+  padding: 7px 64px 0 113px;
+  width: 195px;
 }
-div#contact_us {
-  order: 0;
+
+.contacts_us h2 {
+  font-size: 25px;
+  line-height: 0px;
+  width: 140px;
+  margin-right: 9px;
 }
-div#cityButton {
-  order: 1;
+  
+.massive {
+  margin-top: 80px;
+  margin-left: 0px;
+  width: 300px;
 }
-div#contactWoman {
-  order: 2;
+  
+div#contact_us {order: 0;}
+div#cityButton {order: 2;}
+div#contactWoman {order: 1;} 
+
+.infoForCity {
+  padding: 23px 36px;
+}
+
+.infoForCity th {
+  width: 65px;
+  line-height: 20px;
+}
+
+.infoForCity td {
+  width: 131px;
+}
+
+.infoForCity button {
+  margin: 17px 38px 0 51px;
+}
+.contacts-city-text {
+  margin: 5px 40px 5px 20px;
+  font-size: 16px;
 }
 }
 
@@ -1178,7 +1337,9 @@ footer {
 .footer_container {
   display: flex;
   flex-direction: row;
-  gap: 25%;
+  justify-items:center;
+  gap: 30%;
+  margin-left: 12%;
   width: 1440px
 }
 
@@ -1206,21 +1367,21 @@ footer img:hover {
 }
 
 .git_info {
-  padding-top: 1.5%;
+  margin-top: 1.5%;
 }
 
 .git_info span {
-  padding: 10px;
-  margin-left: 9px;
+  margin: 10px;
+  margin-left: 0px;
 }
 
 .rs-school {
- padding-top: 1.6%;
- width: 250px;
+ margin-top: 1.6%;
+ 
 }
 
 .social_media {
-  padding-top: 4.5%;
+  margin-top: 3.8%;
 }
 
 
@@ -1240,16 +1401,20 @@ footer img:hover {
 }
   footer p {
   line-height: 0px;
+  padding-top: 7px;
 }
 .git_info {
-  padding-top: 2.5%;
+  margin-bottom: -2%;
+  margin-right: 0%;
 }
+
 .rs-school {
- padding-top: 0%;
- margin-left: 11%
+ margin-top: 0%;
+ margin-left: 0%
 }
 .social_media {
-  padding-top: 1.5%;
+  margin-top: 0%;
+  margin-right: 0%
  }  
 }
 @media (max-width: 380px) {
@@ -1265,17 +1430,20 @@ footer img:hover {
 }
   footer p {
   line-height: 0px;
+  font-size: 18px;
+  padding-top: 0px;
 }
 .git_info {
-  padding-top: 0%;
-  padding-right: 3%;
+  margin-top: 0%;
+  margin-right: 0%;
 }
+
 .rs-school {
- padding-top: -9%;
- margin-left: 11%
+ margin-top: 0%;
+ margin-left: 0%
 }
 .social_media {
-  padding-top: 0%;
-  margin-right: 5%
+  margin-top: 1.7%;
+  margin-right: 0%
  }  
 }
